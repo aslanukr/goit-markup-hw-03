@@ -30,36 +30,44 @@
 
   <body>
     <!-- HEADER з логотипом, навігацією та контактами -->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+     <header class="header">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo link"
+            ><span class="logo-web">Web</span>Studio</a
+          >
 
-        <ul class="site-nav list">
+          <ul class="site-nav list">
+            <li>
+              <a href="./index.html" class="site-nav-link link"
+                >Студія</a
+              >
+            </li>
+            <li>
+              <a href="./portfolio.html" class="site-nav-link link current"
+                >Портфоліо</a
+              >
+            </li>
+            <li>
+              <a href="" class="site-nav-link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts list">
           <li>
-            <a href="./index.html" class="site-nav-link link">Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="site-nav-link link current"
-              >Портфоліо</a
+            <a
+              href="mailto:info@devstudio.com"
+              class="header-contacts-link link"
+              >info@devstudio.com</a
             >
           </li>
-          <li><a href="" class="site-nav-link link">Контакти</a></li>
+          <li>
+            <a href="tel:+380961111111" class="header-contacts-link link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="header-contacts list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header-contacts-link link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="header-contacts-link link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
