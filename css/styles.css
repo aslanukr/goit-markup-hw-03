@@ -175,6 +175,8 @@ img {
   cursor: pointer;
 }
 
+/* CORPORATE VALUES */
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -188,6 +190,11 @@ img {
   margin: -1px;
 }
 
+.values-list {
+  display: flex;
+  gap: 30px;
+}
+
 .text-title {
   color: var(--title-text-color);
 }
@@ -197,6 +204,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .values-description {
