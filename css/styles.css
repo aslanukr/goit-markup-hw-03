@@ -134,8 +134,14 @@ img {
   color: var(--primary-text-color);
 }
 
+/* HERO SECTION */
+
 .hero {
   background-color: var(--section-bg-color);
+}
+
+.hero-container {
+  text-align: center;
 }
 
 .hero-text {
@@ -147,21 +153,21 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-bottom: 30px;
 }
 
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  font-family: inherit;
-  font-style: inherit;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .button.primary:hover,
