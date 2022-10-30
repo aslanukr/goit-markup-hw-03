@@ -367,6 +367,7 @@ PORTFOLIO STYLES
 
 .footer {
   background-color: var(--section-bg-color);
+  padding: 60px 0;
 }
 
 .footer-logo {
@@ -376,6 +377,9 @@ PORTFOLIO STYLES
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-logo-web {
