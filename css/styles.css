@@ -288,9 +288,16 @@ OUR TEAM SECTION
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+
+  margin-bottom: 50px;
 }
 
 .team-list {
+  --items: 4;
+}
+
+.team-wrapper {
+  padding: 30px 0;
   background-color: var(--primary-white-color);
 }
 
@@ -299,6 +306,8 @@ OUR TEAM SECTION
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+
+  margin-bottom: 10px;
 }
 
 .position-description {
