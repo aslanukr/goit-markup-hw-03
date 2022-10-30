@@ -50,6 +50,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* reset end */
@@ -58,7 +60,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
 }
 
 .container {
@@ -68,7 +70,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /*  
@@ -232,11 +234,14 @@ CORPORATE VALUES
 .values-list {
   display: flex;
   flex-wrap: wrap;
+  --items: 4;
   gap: var(--indent);
 }
 
 .values-item {
-  max-width: 270px;
+  flex-basis: calc(
+    (100% - var(--indent) * (var(--items) - 1)) / (var(--items))
+  );
 }
 
 .text-title {
@@ -322,6 +327,13 @@ PORTFOLIO STYLES
 ======================
 */
 
+.filters.list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
 .filters-btn {
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
@@ -344,6 +356,12 @@ PORTFOLIO STYLES
 
 .projects {
   background-color: var(--primary-white-color);
+}
+
+.project-wrapper {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .projects-title {
