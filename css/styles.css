@@ -176,6 +176,10 @@ HERO SECTION
   background-color: var(--section-bg-color);
 }
 
+.hero.section {
+  padding: 200px 0;
+}
+
 .hero-text {
   color: var(--primary-white-color);
   font-style: normal;
@@ -269,6 +273,11 @@ What do we do? SECTION
 =======================
 */
 
+.activity-section {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
 .text-title.activity {
   font-weight: 700;
   font-size: 36px;
@@ -344,6 +353,8 @@ PORTFOLIO STYLES
   line-height: 1.62;
   text-align: center;
   border-radius: 4px;
+
+  padding: 6px 22px;
 }
 
 .filters-btn:hover,
@@ -412,6 +423,13 @@ PORTFOLIO STYLES
   color: var(--primary-white-color);
   font-size: 14px;
   line-height: 1.71;
+
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.footer-contacts-item:first-of-type {
+  margin-bottom: 9px;
 }
 
 .footer-contacts-link {
